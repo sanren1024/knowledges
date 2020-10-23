@@ -31,6 +31,36 @@
   </div>
   <div class="stackedit__right">
     <div class="stackedit__html">
+      
+
+
+  
+  
+  <title>设计模式之 UML 类图</title>
+  
+
+
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+</div></div><ul>
+<li>
+<ul>
+<li><a href="#前言">前言</a></li>
+<li><a href="#uml-类图">UML 类图</a></li>
+<li><a href="#依赖-dependency">1. 依赖 (Dependency)</a></li>
+<li><a href="#关联-association">2. 关联 (Association)</a></li>
+<li><a href="#聚合-aggregation">3. 聚合 (Aggregation)</a></li>
+<li><a href="#组合-composition">4. 组合 (Composition)</a></li>
+<li><a href="#继承-generalization">5. 继承 (Generalization)</a></li>
+<li><a href="#实现-implementation">6. 实现 (Implementation)</a></li>
+</ul>
+</li>
+</ul>
+<pre><code>&lt;/div&gt;
+</code></pre>
+  
+  <div class="stackedit__right">
+    <div class="stackedit__html">
       <h2 id="前言"><strong>前言</strong></h2>
 <p>为什么要学习设计模式？</p>
 <p>**个人觉得设计模式传授的是一种思想，是一种脱离语言的编程习惯。**对于一个没有太多经验的程序员，如何写出 <strong>简洁优雅，可复用性高，可扩展性强，高内聚低耦合</strong> 的代码至关重要。学习别人的设计模式就是为了在没有经验的情况下写出一手不错的代码，只看不写并不能深刻体验到设计模式的巧妙之处。</p>
@@ -50,14 +80,13 @@
         course.test();
     }
 }
-
-class Course {
-    private String courseName;
-    public void test() {
-        // take exam...
-    }
-}
-</code></pre>
+</code></pre></div></div><p>class Course {<br>
+private String courseName;<br>
+public void test() {<br>
+// take exam…<br>
+}<br>
+}<br>
+</p>
 <ul>
 <li>
 <p>类名叫做 Student 和 Course</p>
@@ -234,6 +263,11 @@ class People implements IPeople {
     }
 }
 </code></pre>
+<pre><code>&lt;/div&gt;
+</code></pre>
+  
+
+
 
     </div>
   </div>
