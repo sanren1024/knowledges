@@ -1,7 +1,12 @@
+[TOC]
+
+# 备忘录模式
 
 
 
-> Written with [StackEdit](https://stackedit.io/).
+
+
+## 参考 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTIxNDExNzIwOTZdfQ==
 -->
