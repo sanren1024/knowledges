@@ -17,7 +17,7 @@
 
 在上图中显示了App运行时以来的库，<code>R8</code>在分析后将<code>MyActivity.class</code>作为入口，确定方法<code>foo()</code>，<code>faz()</code>，以及<code>AwesomeApi.class</code>的方法<code>bar()</code>是可达的。而<code>OkayApi.class</code>类是不可达的，因此在打包压缩过程中会被移除。
 
-<code>R8</code>依据proguard文件内的<code>-keep</code>规则确认切入点。<code>-keep</code>规则明确的**class文件
+<code>R8</code>依据proguard文件内的<code>-keep</code>规则确认切入点。<code>-keep</code>规则指定的**class**文件是<code>R8</code>
 
 
 ### 测试
@@ -29,7 +29,7 @@
 ![minifyEnabled=true](https://github.com/sanren1024/knowledges/blob/main/android/images/Screenshot%20from%202020-10-27%2014-06-44.png) ![minifyEnabled=false](https://github.com/sanren1024/knowledges/blob/main/android/images/Screenshot%20from%202020-10-27%2014-09-05.png) 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2OTE4MDgxOCwxMDgzNDY5OTkyLDg4NT
+eyJoaXN0b3J5IjpbLTg2OTc0MjEyMywxMDgzNDY5OTkyLDg4NT
 Q2NDI1OCwtMTM0NDUzMjc4MywxNDE1MTI0OTA3LDIxMzMzNDc0
 NzIsLTQ5MzMzNDIwMiwyMDcwNTYzMzU0XX0=
 -->
