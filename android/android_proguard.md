@@ -7,7 +7,7 @@
 
 <code>R8</code>工具的代码压缩功能在配置<code>minifyEnabled</code>值为<code>true</code>后就默认打开了。
 
-代码压缩(code shrinking)是<code>R8</code>工具移除在运行时不需要使用的代码过程。
+代码压缩(code shrinking)是<code>R8</code>工具移除在运行时不需要使用的代码过程。这个过程中<code>R8</code>移除不需要的类，变量，方法等。
 
 
 ### 代码测试
@@ -18,8 +18,7 @@
 
 ![minifyEnabled=true](https://github.com/sanren1024/knowledges/blob/main/android/images/Screenshot%20from%202020-10-27%2014-06-44.png) ![minifyEnabled=false](https://github.com/sanren1024/knowledges/blob/main/android/images/Screenshot%20from%202020-10-27%2014-09-05.png) 
 
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NTUwMjU0NywyMTMzMzQ3NDcyLC00OT
-MzMzQyMDIsMjA3MDU2MzM1NF19
+eyJoaXN0b3J5IjpbLTk2NDcwODU0LDIxMzMzNDc0NzIsLTQ5Mz
+MzNDIwMiwyMDcwNTYzMzU0XX0=
 -->
