@@ -92,11 +92,11 @@ xml文件中根标签是  **\<resources\>**，在 <code>**tools:keep**</code> �
 
 ### 严格引用检查
 
-如果使用了<code>Resources.getIdentifier()</code>()
+如果使用了<code>Resources.getIdentifier()</code>(或者库中使用了——AppCompat库使用了)，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MDM1MzI3NSwxNzM4MjE1MzgxLC0xND
-gxODkxMDE3LC04NTE0NjYzNjQsNzI4NjMzMzk1LDEyNzc3NDMw
-NjYsMTY2NjEwOTkxMiwtODY5NzQyMTIzLDEwODM0Njk5OTIsOD
-g1NDY0MjU4LC0xMzQ0NTMyNzgzLDE0MTUxMjQ5MDcsMjEzMzM0
-NzQ3MiwtNDkzMzM0MjAyLDIwNzA1NjMzNTRdfQ==
+eyJoaXN0b3J5IjpbMzU4NjcxODE4LDE3MzgyMTUzODEsLTE0OD
+E4OTEwMTcsLTg1MTQ2NjM2NCw3Mjg2MzMzOTUsMTI3Nzc0MzA2
+NiwxNjY2MTA5OTEyLC04Njk3NDIxMjMsMTA4MzQ2OTk5Miw4OD
+U0NjQyNTgsLTEzNDQ1MzI3ODMsMTQxNTEyNDkwNywyMTMzMzQ3
+NDcyLC00OTMzMzQyMDIsMjA3MDU2MzM1NF19
 -->
