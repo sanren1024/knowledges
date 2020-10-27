@@ -31,10 +31,14 @@
 
 ### 自定义保留类
 
-默认的ProGuard规则(<code>proguard-android-optimize.txt</code>)对<code>R8</code>在压缩代码过程中移除不需要的代码已经足够。但也有特殊情况下，<code>R8</code>会错误移除的
+默认的ProGuard规则(<code>proguard-android-optimize.txt</code>)对<code>R8</code>在压缩代码过程中移除不需要的代码已经足够。
+
+但也有<code>R8</code>会错误移除的个别情况：
+
+- 调用JNI(Java Native )接口； 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzM4NjAzNzUsMTY2NjEwOTkxMiwtOD
-Y5NzQyMTIzLDEwODM0Njk5OTIsODg1NDY0MjU4LC0xMzQ0NTMy
-NzgzLDE0MTUxMjQ5MDcsMjEzMzM0NzQ3MiwtNDkzMzM0MjAyLD
-IwNzA1NjMzNTRdfQ==
+eyJoaXN0b3J5IjpbMTA3MDYzMzkzMCwxNjY2MTA5OTEyLC04Nj
+k3NDIxMjMsMTA4MzQ2OTk5Miw4ODU0NjQyNTgsLTEzNDQ1MzI3
+ODMsMTQxNTEyNDkwNywyMTMzMzQ3NDcyLC00OTMzMzQyMDIsMj
+A3MDU2MzM1NF19
 -->
