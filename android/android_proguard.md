@@ -97,10 +97,13 @@ xml文件中根标签是  **\<resources\>**，在 <code>**tools:keep**</code> �
 例如：
 
 ```kotlin
-
+val name =  String.format("img_%1d", angle +  1)  
+val res = resources.getIdentifier(name,  "drawable", packageName)
 ```
+
+代码中，资源名是动态生成的，因此<code>R8</code>会认定所有以<code>img_</code>开始的资源会被引用，因此一些即便不被使用，但是以<code>img_</code>开始的
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNDI4ODIxNiwxNzM4MjE1MzgxLC0xND
+eyJoaXN0b3J5IjpbMTExMzk5ODA3NiwxNzM4MjE1MzgxLC0xND
 gxODkxMDE3LC04NTE0NjYzNjQsNzI4NjMzMzk1LDEyNzc3NDMw
 NjYsMTY2NjEwOTkxMiwtODY5NzQyMTIzLDEwODM0Njk5OTIsOD
 g1NDY0MjU4LC0xMzQ0NTMyNzgzLDE0MTUxMjQ5MDcsMjEzMzM0
