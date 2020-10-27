@@ -92,11 +92,17 @@ xml文件中根标签是  **\<resources\>**，在 <code>**tools:keep**</code> �
 
 ### 严格引用检查
 
-如果使用了<code>Resources.getIdentifier()</code>(或者库中使用了——AppCompat库使用了)，这意味着代码需要依据动态生成的字符串进行资源搜索。这样<code>R8</code>在资源压缩时会认为
+如果使用了<code>Resources.getIdentifier()</code>(或者库中使用了——AppCompat库使用了)，这意味着代码需要依据**动态生成的字符串**进行资源搜索。这样<code>R8</code>在资源压缩时会认定**动态生成的字符串资源名**开始的所有资源文件可能会被引用，因此不会进行移除。
+
+例如：
+
+```kotlin
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjU4Mzc2MDAsMTczODIxNTM4MSwtMT
-Q4MTg5MTAxNywtODUxNDY2MzY0LDcyODYzMzM5NSwxMjc3NzQz
-MDY2LDE2NjYxMDk5MTIsLTg2OTc0MjEyMywxMDgzNDY5OTkyLD
-g4NTQ2NDI1OCwtMTM0NDUzMjc4MywxNDE1MTI0OTA3LDIxMzMz
-NDc0NzIsLTQ5MzMzNDIwMiwyMDcwNTYzMzU0XX0=
+eyJoaXN0b3J5IjpbMTIxNDI4ODIxNiwxNzM4MjE1MzgxLC0xND
+gxODkxMDE3LC04NTE0NjYzNjQsNzI4NjMzMzk1LDEyNzc3NDMw
+NjYsMTY2NjEwOTkxMiwtODY5NzQyMTIzLDEwODM0Njk5OTIsOD
+g1NDY0MjU4LC0xMzQ0NTMyNzgzLDE0MTUxMjQ5MDcsMjEzMzM0
+NzQ3MiwtNDkzMzM0MjAyLDIwNzA1NjMzNTRdfQ==
 -->
