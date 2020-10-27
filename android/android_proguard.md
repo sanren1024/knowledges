@@ -8,14 +8,14 @@
 
 代码压缩(code shrinking)是<code>R8</code>工具移除在运行时不需要使用的代码过程。这个过程中<code>R8</code>移除不需要的类，变量，方法等。
 
+
 ### 原理
 
 <code>R8</code>先根据配置的proguard文件(默认，或自定义)，分析确定代码的切入点。Android会依据这些切入点打开Activity或者Service。从每个入口点开始，<code>R8</code>会分析并构建包含类，变量，方法和其他在运行时可能访问到的类的图。而未分析到的类会被认定是**不可达**的，在后续打包过程中将被移除。
 
 ![tree-shaking](https://github.com/sanren1024/knowledges/blob/74b5e998da1b6dc241e83b54b222bb3c2595170f/android/images/proguard_tree-shaking.png)
 
-在上图中显示了App运行时以来的库，<code>R8</code>在分析后将<code>MyActivity.class</code>作为入口，确定方法<code>foo()</code>，<code>faz()</code>，以及<code>AwesomeApi.class</code>的方法<code>bar()</code>是可达的。而<code>OkayApi.class</code>类是不可达的，
-
+在上图中显示了App运行时以来的库，<code>R8</code>在分析后将<code>MyActivity.class</code>作为入口，确定方法<code>foo()</code>，<code>faz()</code>，以及<code>AwesomeApi.class</code>的方法<code>bar()</code>是可达的。而<code>OkayApi.class</code>类是不可达的，因此在打包压缩过程中会被移除。
 
 
 ### 测试
@@ -27,7 +27,7 @@
 ![minifyEnabled=true](https://github.com/sanren1024/knowledges/blob/main/android/images/Screenshot%20from%202020-10-27%2014-06-44.png) ![minifyEnabled=false](https://github.com/sanren1024/knowledges/blob/main/android/images/Screenshot%20from%202020-10-27%2014-09-05.png) 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NDE1NDAxNyw4ODU0NjQyNTgsLTEzND
+eyJoaXN0b3J5IjpbMTA4MzQ2OTk5Miw4ODU0NjQyNTgsLTEzND
 Q1MzI3ODMsMTQxNTEyNDkwNywyMTMzMzQ3NDcyLC00OTMzMzQy
 MDIsMjA3MDU2MzM1NF19
 -->
