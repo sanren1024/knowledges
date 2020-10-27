@@ -46,9 +46,11 @@
 -keep public class MyClass
 ```
 
+也可以使用<code>@Keep</code>标注解决上述问题。
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NTUyNTM0MCwxNjY2MTA5OTEyLC04Nj
+eyJoaXN0b3J5IjpbMTUyMjE0NDY1MSwxNjY2MTA5OTEyLC04Nj
 k3NDIxMjMsMTA4MzQ2OTk5Miw4ODU0NjQyNTgsLTEzNDQ1MzI3
 ODMsMTQxNTEyNDkwNywyMTMzMzQ3NDcyLC00OTMzMzQyMDIsMj
 A3MDU2MzM1NF19
