@@ -46,12 +46,12 @@
 -keep public class MyClass
 ```
 
-也可以使用<code>@Keep</code>标注解决上述问题。
+也可以使用<code>@Keep</code>标注解决上述问题。<code>@Keep</code>标注在类声明上面，该类会保持原有类名及内部结构，不会被压缩处理。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMjE0NDY1MSwxNjY2MTA5OTEyLC04Nj
-k3NDIxMjMsMTA4MzQ2OTk5Miw4ODU0NjQyNTgsLTEzNDQ1MzI3
-ODMsMTQxNTEyNDkwNywyMTMzMzQ3NDcyLC00OTMzMzQyMDIsMj
-A3MDU2MzM1NF19
+eyJoaXN0b3J5IjpbLTE4NDcyNjIzMjcsMTY2NjEwOTkxMiwtOD
+Y5NzQyMTIzLDEwODM0Njk5OTIsODg1NDY0MjU4LC0xMzQ0NTMy
+NzgzLDE0MTUxMjQ5MDcsMjEzMzM0NzQ3MiwtNDkzMzM0MjAyLD
+IwNzA1NjMzNTRdfQ==
 -->
