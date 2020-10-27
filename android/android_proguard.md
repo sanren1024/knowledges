@@ -18,6 +18,8 @@
 在上图中显示了App运行时以来的库，<code>R8</code>在分析后将<code>MyActivity.class</code>作为入口，确定方法<code>foo()</code>，<code>faz()</code>，以及<code>AwesomeApi.class</code>的方法<code>bar()</code>是可达的。而<code>OkayApi.class</code>类是不可达的，因此在打包压缩过程中会被移除。
 
 
+
+
 ### 测试
 
 在<code>module</code>目录下的<code>build.gradle</code>文件内配置<code>minifyEnabled</code>值为<code>true</code>后，程序代码压缩功能就默认打开了，在打包<code>release</code>版本过程中，Android打包工具会源码进行压缩，移除其中不使用的类，变量，方法等，从而达到缩小最终APK体积的目的。
@@ -27,7 +29,7 @@
 ![minifyEnabled=true](https://github.com/sanren1024/knowledges/blob/main/android/images/Screenshot%20from%202020-10-27%2014-06-44.png) ![minifyEnabled=false](https://github.com/sanren1024/knowledges/blob/main/android/images/Screenshot%20from%202020-10-27%2014-09-05.png) 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MzQ2OTk5Miw4ODU0NjQyNTgsLTEzND
-Q1MzI3ODMsMTQxNTEyNDkwNywyMTMzMzQ3NDcyLC00OTMzMzQy
-MDIsMjA3MDU2MzM1NF19
+eyJoaXN0b3J5IjpbOTE1MDMwMzQ4LDEwODM0Njk5OTIsODg1ND
+Y0MjU4LC0xMzQ0NTMyNzgzLDE0MTUxMjQ5MDcsMjEzMzM0NzQ3
+MiwtNDkzMzM0MjAyLDIwNzA1NjMzNTRdfQ==
 -->
