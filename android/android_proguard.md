@@ -14,7 +14,7 @@
 
 ![tree-shaking](https://github.com/sanren1024/knowledges/blob/74b5e998da1b6dc241e83b54b222bb3c2595170f/android/images/proguard_tree-shaking.png)
 
-在上图中显示了App运行时以来的库，<code>R8</code>在分析后将<code>MyActivity.class</code>作为入口，方法<code>foo()</code>，<code>faz()</code>，以及
+在上图中显示了App运行时以来的库，<code>R8</code>在分析后将<code>MyActivity.class</code>作为入口，确定方法<code>foo()</code>，<code>faz()</code>，以及<code>AwesomeApi.class</code>的方法<code>bar()</code>是可达的。而<code>OkayApi.class</code>类是不可达的，
 
 
 
@@ -27,7 +27,7 @@
 ![minifyEnabled=true](https://github.com/sanren1024/knowledges/blob/main/android/images/Screenshot%20from%202020-10-27%2014-06-44.png) ![minifyEnabled=false](https://github.com/sanren1024/knowledges/blob/main/android/images/Screenshot%20from%202020-10-27%2014-09-05.png) 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMyMjM2NDY3LDg4NTQ2NDI1OCwtMTM0ND
-UzMjc4MywxNDE1MTI0OTA3LDIxMzMzNDc0NzIsLTQ5MzMzNDIw
-MiwyMDcwNTYzMzU0XX0=
+eyJoaXN0b3J5IjpbLTQ5NDE1NDAxNyw4ODU0NjQyNTgsLTEzND
+Q1MzI3ODMsMTQxNTEyNDkwNywyMTMzMzQ3NDcyLC00OTMzMzQy
+MDIsMjA3MDU2MzM1NF19
 -->
