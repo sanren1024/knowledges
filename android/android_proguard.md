@@ -5,7 +5,7 @@
 
 ## 代码压缩(shrink code)
 
-<code>R8</code>中代码压缩功能在配置<code>minifyEnabled true</code>
+<code>R8</code>工具的代码压缩功能在配置<code>minifyEnabled</code>值为<code>true</code>后就默认打开了。
 
 
 
@@ -19,6 +19,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzkyMzM0MDQsLTQ5MzMzNDIwMiwyMD
-cwNTYzMzU0XX0=
+eyJoaXN0b3J5IjpbMjEzMzM0NzQ3MiwtNDkzMzM0MjAyLDIwNz
+A1NjMzNTRdfQ==
 -->
