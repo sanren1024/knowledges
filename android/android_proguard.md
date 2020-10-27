@@ -40,9 +40,15 @@
 
 测试过程中可以揭露由于错误移除导致的错误，但是也可以通过配置产生一个report文件查看移除与保留的类。
 
-怎么解决错误移除问题呢？ **使用**
+怎么解决错误移除问题呢？ **使用<code>-keep</code>规则**，例如
+
+```script
+-keep public class MyClass
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxOTA1OTg0NSwxNjY2MTA5OTEyLC04Nj
+eyJoaXN0b3J5IjpbLTU2NTUyNTM0MCwxNjY2MTA5OTEyLC04Nj
 k3NDIxMjMsMTA4MzQ2OTk5Miw4ODU0NjQyNTgsLTEzNDQ1MzI3
 ODMsMTQxNTEyNDkwNywyMTMzMzQ3NDcyLC00OTMzMzQyMDIsMj
 A3MDU2MzM1NF19
