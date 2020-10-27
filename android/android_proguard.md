@@ -38,9 +38,11 @@
 - 调用JNI(Java Native Interface)接口； 
 - 调用反射接口；
 
-测试过程中
+测试过程中可以揭露由于错误移除导致的错误，但是也可以通过配置产生一个report文件查看移除与保留的类。
+
+怎么解决错误移除问题呢？ **使用**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NDQ1NDY2OCwxNjY2MTA5OTEyLC04Nj
+eyJoaXN0b3J5IjpbMTAxOTA1OTg0NSwxNjY2MTA5OTEyLC04Nj
 k3NDIxMjMsMTA4MzQ2OTk5Miw4ODU0NjQyNTgsLTEzNDQ1MzI3
 ODMsMTQxNTEyNDkwNywyMTMzMzQ3NDcyLC00OTMzMzQyMDIsMj
 A3MDU2MzM1NF19
