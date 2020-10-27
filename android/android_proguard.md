@@ -76,9 +76,9 @@ android {
 ### 自定义保留资源
 
 若希望保留/丢弃某些特殊资源，可以在一个xml文件中进行配置。
-xml文件中跟
+xml文件中根标签是  **\<resources\>**，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MTgyMjE0OSwtODUxNDY2MzY0LDcyOD
+eyJoaXN0b3J5IjpbMTAwNDI4OTc4NiwtODUxNDY2MzY0LDcyOD
 YzMzM5NSwxMjc3NzQzMDY2LDE2NjYxMDk5MTIsLTg2OTc0MjEy
 MywxMDgzNDY5OTkyLDg4NTQ2NDI1OCwtMTM0NDUzMjc4MywxND
 E1MTI0OTA3LDIxMzMzNDc0NzIsLTQ5MzMzNDIwMiwyMDcwNTYz
