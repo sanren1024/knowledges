@@ -5,7 +5,11 @@
 
 ## 代码压缩(shrink code)
 
-### 
+
+
+### 知识点
+
+
 
 ### 代码测试
 
@@ -17,6 +21,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMzYxMzMyOCwtNDkzMzM0MjAyLDIwNz
-A1NjMzNTRdfQ==
+eyJoaXN0b3J5IjpbLTEzNTk0MjI4MzIsLTQ5MzMzNDIwMiwyMD
+cwNTYzMzU0XX0=
 -->
