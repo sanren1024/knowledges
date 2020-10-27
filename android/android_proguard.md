@@ -51,13 +51,15 @@
 **注意**：使用<code>@Keep</code>，前提是使用*AndroidX Annotation Library*标注库。
 
 
-## 裁剪native库
+## 资源压缩(Resource Shrinking)
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3Nzc0MzA2NiwxNjY2MTA5OTEyLC04Nj
-k3NDIxMjMsMTA4MzQ2OTk5Miw4ODU0NjQyNTgsLTEzNDQ1MzI3
-ODMsMTQxNTEyNDkwNywyMTMzMzQ3NDcyLC00OTMzMzQyMDIsMj
-A3MDU2MzM1NF19
+eyJoaXN0b3J5IjpbNzI4NjMzMzk1LDEyNzc3NDMwNjYsMTY2Nj
+EwOTkxMiwtODY5NzQyMTIzLDEwODM0Njk5OTIsODg1NDY0MjU4
+LC0xMzQ0NTMyNzgzLDE0MTUxMjQ5MDcsMjEzMzM0NzQ3MiwtND
+kzMzM0MjAyLDIwNzA1NjMzNTRdfQ==
 -->
