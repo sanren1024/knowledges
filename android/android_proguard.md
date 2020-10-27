@@ -3,10 +3,11 @@
 # Android  Proguard
 
 
-## 代码压缩(shrink code)
+## 代码压缩(code shrinking)
 
 <code>R8</code>工具的代码压缩功能在配置<code>minifyEnabled</code>值为<code>true</code>后就默认打开了。
 
+代码压缩(code shrinking)是<code>R8</code>工具移除在运行时不需要使用的代码过程。
 
 
 ### 代码测试
@@ -19,6 +20,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMzM0NzQ3MiwtNDkzMzM0MjAyLDIwNz
-A1NjMzNTRdfQ==
+eyJoaXN0b3J5IjpbMTg4NTUwMjU0NywyMTMzMzQ3NDcyLC00OT
+MzMzQyMDIsMjA3MDU2MzM1NF19
 -->
