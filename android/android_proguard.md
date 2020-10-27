@@ -87,11 +87,11 @@ xml文件中根标签是  **\<resources\>**，在 <code>**tools:keep**</code> �
 
 构建工具不会将此文件打包到APK文件中。
 
-明确要移除的资源，可能会被说还不如直接删除更加直接。但是在使用构建变量时，这是很有用的。例如，在project资源文件夹中有
+明确要移除的资源，可能会被说还不如直接删除更加直接。但是在使用构建变量时，这是很有用的。例如，在project资源文件夹中有众多资源，且为不同的构建变量创建不同的<code>keep.xml</code>文件。此时，对于已知的
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTkwMDk4MTEsLTE0ODE4OTEwMTcsLT
-g1MTQ2NjM2NCw3Mjg2MzMzOTUsMTI3Nzc0MzA2NiwxNjY2MTA5
-OTEyLC04Njk3NDIxMjMsMTA4MzQ2OTk5Miw4ODU0NjQyNTgsLT
-EzNDQ1MzI3ODMsMTQxNTEyNDkwNywyMTMzMzQ3NDcyLC00OTMz
-MzQyMDIsMjA3MDU2MzM1NF19
+eyJoaXN0b3J5IjpbMTYyNjIwNTkxMCwtMTQ4MTg5MTAxNywtOD
+UxNDY2MzY0LDcyODYzMzM5NSwxMjc3NzQzMDY2LDE2NjYxMDk5
+MTIsLTg2OTc0MjEyMywxMDgzNDY5OTkyLDg4NTQ2NDI1OCwtMT
+M0NDUzMjc4MywxNDE1MTI0OTA3LDIxMzMzNDc0NzIsLTQ5MzMz
+NDIwMiwyMDcwNTYzMzU0XX0=
 -->
