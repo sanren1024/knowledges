@@ -9,6 +9,10 @@
 
 代码压缩(code shrinking)是<code>R8</code>工具移除在运行时不需要使用的代码过程。这个过程中<code>R8</code>移除不需要的类，变量，方法等。
 
+### 原理
+
+<code>R8</code>先根据配置的proguard文件(可以默认，或自定义)，确定代码中的
+
 
 ### 代码测试
 
@@ -19,6 +23,6 @@
 ![minifyEnabled=true](https://github.com/sanren1024/knowledges/blob/main/android/images/Screenshot%20from%202020-10-27%2014-06-44.png) ![minifyEnabled=false](https://github.com/sanren1024/knowledges/blob/main/android/images/Screenshot%20from%202020-10-27%2014-09-05.png) 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NDcwODU0LDIxMzMzNDc0NzIsLTQ5Mz
-MzNDIwMiwyMDcwNTYzMzU0XX0=
+eyJoaXN0b3J5IjpbLTE1NDE2MDUwOSwyMTMzMzQ3NDcyLC00OT
+MzMzQyMDIsMjA3MDU2MzM1NF19
 -->
