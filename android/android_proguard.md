@@ -85,11 +85,13 @@ xml文件中根标签是  **\<resources\>**，在 <code>**tools:keep**</code> �
 <resources  xmlns:tools="http://schemas.android.com/tools"  tools:keep="@layout/l_used*_c,@layout/l_used_a,@layout/l_used_b*"  tools:discard="@layout/unused2"  />
 ```
 
-构建工具不会将此文件打包到APK文件
+构建工具不会将此文件打包到APK文件中。
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NzUwMDg0OCwtODUxNDY2MzY0LDcyOD
-YzMzM5NSwxMjc3NzQzMDY2LDE2NjYxMDk5MTIsLTg2OTc0MjEy
-MywxMDgzNDY5OTkyLDg4NTQ2NDI1OCwtMTM0NDUzMjc4MywxND
-E1MTI0OTA3LDIxMzMzNDc0NzIsLTQ5MzMzNDIwMiwyMDcwNTYz
-MzU0XX0=
+eyJoaXN0b3J5IjpbLTE0ODE4OTEwMTcsLTg1MTQ2NjM2NCw3Mj
+g2MzMzOTUsMTI3Nzc0MzA2NiwxNjY2MTA5OTEyLC04Njk3NDIx
+MjMsMTA4MzQ2OTk5Miw4ODU0NjQyNTgsLTEzNDQ1MzI3ODMsMT
+QxNTEyNDkwNywyMTMzMzQ3NDcyLC00OTMzMzQyMDIsMjA3MDU2
+MzM1NF19
 -->
