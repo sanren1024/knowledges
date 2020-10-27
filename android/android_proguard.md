@@ -78,9 +78,9 @@ android {
 若希望保留/丢弃某些特殊资源，可以在一个xml文件中进行配置。
 xml文件中根标签是  **\<resources\>**，在 <code>**tools:keep**</code> 属性下配置需要保留的资源，在<code>**tools:discard**</code>属性下配置要丢弃的资源。
 
-并将配置文件命名为 <code></code>
+并将配置文件命名为 <code>keep.xml</code> 保存在<code>raw</code>目录下<code>res.raw/keep.xml</code>。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1ODAxODI4NywtODUxNDY2MzY0LDcyOD
+eyJoaXN0b3J5IjpbLTY0MDQ0NzA1NywtODUxNDY2MzY0LDcyOD
 YzMzM5NSwxMjc3NzQzMDY2LDE2NjYxMDk5MTIsLTg2OTc0MjEy
 MywxMDgzNDY5OTkyLDg4NTQ2NDI1OCwtMTM0NDUzMjc4MywxND
 E1MTI0OTA3LDIxMzMzNDc0NzIsLTQ5MzMzNDIwMiwyMDcwNTYz
