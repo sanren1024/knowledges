@@ -55,11 +55,11 @@
 
 资源压缩(Resource Shrinking)与代码压缩(Code Shrinking)一同进行。在代码压缩执行完成，移除无用代码后，资源压缩就也可以确定哪些资源是不再被使用的(反之，明确哪些资源是继续被使用的)。
 
-通过在
+通过在<code>module</code>目录下的<code>build.gradle</code>文件中设置<code>shrinkResources</code>为<code>true</code>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwODUyOTcxNSw3Mjg2MzMzOTUsMTI3Nz
+eyJoaXN0b3J5IjpbLTk1NjA0MjA1Niw3Mjg2MzMzOTUsMTI3Nz
 c0MzA2NiwxNjY2MTA5OTEyLC04Njk3NDIxMjMsMTA4MzQ2OTk5
 Miw4ODU0NjQyNTgsLTEzNDQ1MzI3ODMsMTQxNTEyNDkwNywyMT
 MzMzQ3NDcyLC00OTMzMzQyMDIsMjA3MDU2MzM1NF19
