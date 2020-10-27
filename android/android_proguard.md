@@ -14,7 +14,7 @@
 
 ![tree-shaking](https://github.com/sanren1024/knowledges/blob/74b5e998da1b6dc241e83b54b222bb3c2595170f/android/images/proguard_tree-shaking.png)
 
-在上图中，<code>R8</code>在分析后将<code></code>
+在上图中显示了App运行时以来的库，<code>R8</code>在分析后将<code>MyActivity。class</code>
 
 
 
@@ -27,7 +27,7 @@
 ![minifyEnabled=true](https://github.com/sanren1024/knowledges/blob/main/android/images/Screenshot%20from%202020-10-27%2014-06-44.png) ![minifyEnabled=false](https://github.com/sanren1024/knowledges/blob/main/android/images/Screenshot%20from%202020-10-27%2014-09-05.png) 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg1NDY0MjU4LC0xMzQ0NTMyNzgzLDE0MT
-UxMjQ5MDcsMjEzMzM0NzQ3MiwtNDkzMzM0MjAyLDIwNzA1NjMz
-NTRdfQ==
+eyJoaXN0b3J5IjpbLTEyMTk1MDczMjUsODg1NDY0MjU4LC0xMz
+Q0NTMyNzgzLDE0MTUxMjQ5MDcsMjEzMzM0NzQ3MiwtNDkzMzM0
+MjAyLDIwNzA1NjMzNTRdfQ==
 -->
