@@ -11,7 +11,7 @@
 
 ### 原理
 
-<code>R8</code>先根据配置的proguard文件(可以默认，或自定义)，确定代码中的
+<code>R8</code>先根据配置的proguard文件(可以默认，或自定义)，确定代码中的切入点。Android会依据这些切入点打开Activity或者Service。
 
 
 ### 代码测试
@@ -23,6 +23,6 @@
 ![minifyEnabled=true](https://github.com/sanren1024/knowledges/blob/main/android/images/Screenshot%20from%202020-10-27%2014-06-44.png) ![minifyEnabled=false](https://github.com/sanren1024/knowledges/blob/main/android/images/Screenshot%20from%202020-10-27%2014-09-05.png) 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDE2MDUwOSwyMTMzMzQ3NDcyLC00OT
+eyJoaXN0b3J5IjpbMTA3Nzc4MDAyNywyMTMzMzQ3NDcyLC00OT
 MzMzQyMDIsMjA3MDU2MzM1NF19
 -->
