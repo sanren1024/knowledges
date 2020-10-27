@@ -79,8 +79,15 @@ android {
 xml文件中根标签是  **\<resources\>**，在 <code>**tools:keep**</code> 属性下配置需要保留的资源，在<code>**tools:discard**</code>属性下配置要丢弃的资源。
 
 并将配置文件命名为 <code>keep.xml</code> 保存在<code>raw</code>目录下<code>res.raw/keep.xml</code>。
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>  
+<resources  xmlns:tools="http://schemas.android.com/tools"  tools:keep="@layout/l_used*_c,@layout/l_used_a,@layout/l_used_b*"  tools:discard="@layout/unused2"  />
+```
+
+构建工具不会将此文件打包到APK文件
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MDQ0NzA1NywtODUxNDY2MzY0LDcyOD
+eyJoaXN0b3J5IjpbMTI3NzUwMDg0OCwtODUxNDY2MzY0LDcyOD
 YzMzM5NSwxMjc3NzQzMDY2LDE2NjYxMDk5MTIsLTg2OTc0MjEy
 MywxMDgzNDY5OTkyLDg4NTQ2NDI1OCwtMTM0NDUzMjc4MywxND
 E1MTI0OTA3LDIxMzMzNDc0NzIsLTQ5MzMzNDIwMiwyMDcwNTYz
