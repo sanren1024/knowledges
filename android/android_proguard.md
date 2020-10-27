@@ -72,11 +72,15 @@ android {
 
 再设置此项值前，确认是否设置了<code>minifyEnabled</code>，如还未设置，可以先设置这项来打开代码压缩功能。
 
-### 
+
+### 自定义保留资源
+
+若希望保留/丢弃某些特殊资源，可以在一个xml文件中进行配置。
+xml文件中跟
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NjMwNTAzLC04NTE0NjYzNjQsNzI4Nj
-MzMzk1LDEyNzc3NDMwNjYsMTY2NjEwOTkxMiwtODY5NzQyMTIz
-LDEwODM0Njk5OTIsODg1NDY0MjU4LC0xMzQ0NTMyNzgzLDE0MT
-UxMjQ5MDcsMjEzMzM0NzQ3MiwtNDkzMzM0MjAyLDIwNzA1NjMz
-NTRdfQ==
+eyJoaXN0b3J5IjpbMTg2MTgyMjE0OSwtODUxNDY2MzY0LDcyOD
+YzMzM5NSwxMjc3NzQzMDY2LDE2NjYxMDk5MTIsLTg2OTc0MjEy
+MywxMDgzNDY5OTkyLDg4NTQ2NDI1OCwtMTM0NDUzMjc4MywxND
+E1MTI0OTA3LDIxMzMzNDc0NzIsLTQ5MzMzNDIwMiwyMDcwNTYz
+MzU0XX0=
 -->
