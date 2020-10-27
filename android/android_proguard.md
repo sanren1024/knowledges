@@ -35,9 +35,12 @@
 
 但也有<code>R8</code>会错误移除的个别情况：
 
-- 调用JNI(Java Native )接口； 
+- 调用JNI(Java Native Interface)接口； 
+- 调用反射接口；
+
+测试过程中
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MDYzMzkzMCwxNjY2MTA5OTEyLC04Nj
+eyJoaXN0b3J5IjpbMTQ1NDQ1NDY2OCwxNjY2MTA5OTEyLC04Nj
 k3NDIxMjMsMTA4MzQ2OTk5Miw4ODU0NjQyNTgsLTEzNDQ1MzI3
 ODMsMTQxNTEyNDkwNywyMTMzMzQ3NDcyLC00OTMzMzQyMDIsMj
 A3MDU2MzM1NF19
