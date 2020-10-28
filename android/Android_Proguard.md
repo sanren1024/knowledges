@@ -105,7 +105,7 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 以上这些均是在**默认的safe模式**下的资源压缩。
 
-
+另外一种即是**strict**模式，需要在<code>raw</code>目录下
 
 ### 资源压缩测试
 
@@ -136,7 +136,7 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODcyOTc4MTcsMTM5MjE0MjU0MiwtMT
+eyJoaXN0b3J5IjpbLTEwMzY5NzE3NzksMTM5MjE0MjU0MiwtMT
 I2MjEyNTc3Myw2NDcwMjI2NDIsLTIwMjIzMDY5MzksLTExMDM5
 NDExNzhdfQ==
 -->
