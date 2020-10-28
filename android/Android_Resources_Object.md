@@ -49,7 +49,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 返回与Application关联的<code>Resources</code>对象，即通过这个对象，可以访问到app资源。这个<code>Resources</code>对象与通过<code>getAssets()</code>返回的<code>AssetManager</code>对象一致，即他们共享有一个<code>Configuration</code>数据。
 
-**一般大家在开发过程中很少会使用**
+**一般大家在开发过程中很少会使用<code>Resources.getSystem()</code>方式去获取<code>Resources</code>对象，但这里踩到了坑了，这个细节还是需要注意的。**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNjYwNDkwNiw5Njg2MTc5NzRdfQ==
+eyJoaXN0b3J5IjpbLTMxMjU5NjgyMSw5Njg2MTc5NzRdfQ==
 -->
