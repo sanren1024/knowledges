@@ -42,7 +42,9 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 这个方式获取的<code>Resources</code>对象，其关联到的只能是系统资源，即只能访问系统资源，不能访问app资源(application resources)。
 
+这样的获取方式，并不能在当前运行的<code>Activity</code>等组件运行时使用其**dimen**，
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY4NjE3OTc0XX0=
+eyJoaXN0b3J5IjpbNTYxNzQzNjAwLDk2ODYxNzk3NF19
 -->
