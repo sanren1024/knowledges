@@ -19,7 +19,10 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 在运行后的结果是，<code>resID</code>返回总是0。
 
+反复测试下，一直未怀疑到 <code>Resources</code>对象的获取方式有问题，在反复测试后才关注到这个问题。
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTI3MTIyNV19
+eyJoaXN0b3J5IjpbLTExNzQ1ODg3MF19
 -->
