@@ -103,9 +103,9 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 代码中，资源名是动态生成的，因此<code>R8</code>会认定所有以<code>img_</code>开始的资源会被引用，因此一些即便不被使用，但是名字以<code>img_</code>开始的资源文件不会被移除。
 
-#### 动态资源名测试
+### 资源压缩测试
 
-在project中有资源<code>airplane_space.png</code>的图片资源，在<code>layout</code>目录下保留有三个不被引用的xml文件。
+在project中有资源<code>airplane_space.png</code>的图片资源，在<code>layout</code>目录下保留有不被引用的fragment xml文件。
 
 ![project resources strcuture](https://github.com/sanren1024/knowledges/blob/main/android/images/proguard/Screenshot%20from%202020-10-28%2011-46-44.png)
 
@@ -121,9 +121,9 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 这里在运行时使用<code>getIdentifier()</code>来获取资源id。打**release**包。
 
-![Unremoved for image resource](https://github.com/sanren1024/knowledges/blob/main/android/images/proguard/proguard_image_not_removed_by_dynamic_reference_minify_enabled.png)
+在打**release**包前，还需要搞清楚一个问题，即资源压缩在默认情况下是**safe**模式下，
 
-上图中看到在代码中动态引用的图片资源未被移除。
+
 
 
 
@@ -132,6 +132,7 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ3MDIyNjQyLC0yMDIyMzA2OTM5LC0xMT
-AzOTQxMTc4XX0=
+eyJoaXN0b3J5IjpbLTE2NzQ5MDMxOTAsMTM5MjE0MjU0MiwtMT
+I2MjEyNTc3Myw2NDcwMjI2NDIsLTIwMjIzMDY5MzksLTExMDM5
+NDExNzhdfQ==
 -->
