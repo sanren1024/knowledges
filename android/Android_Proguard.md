@@ -121,13 +121,13 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 这里在运行时使用<code>getIdentifier()</code>来获取资源id。打**release**包。
 
-
+!
 
 
 同样，资源压缩器会分析代码中的字符串常量，以及<code>/res/raw/</code>目录下各种资源，类似<code>file:///android_res/drawable/ic_plus.png</code>的URL地址。如果压缩器检查到类似这些地址或资源，或者看起来可以组成类似的URL地址的资源，压缩器不会移除这些资源。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjIzMDY5MzksLTExMDM5NDExNzhdfQ
-==
+eyJoaXN0b3J5IjpbLTgwMzE5NzEwMiwtMjAyMjMwNjkzOSwtMT
+EwMzk0MTE3OF19
 -->
