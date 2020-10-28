@@ -135,8 +135,15 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 在打**release**包前，还需要搞清楚一个问题，即资源压缩在默认情况下是**safe**模式下，另外一个是**strict**模式。这种模式下是资源压缩处理是不同的。
 
-#### 
+----
 
+> 下面来看下两种模式下不同的资源表现
+
+- **safe mode**
+
+
+
+- **strict mode**
 
 
 
@@ -146,7 +153,7 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMTQ2MDk5MywxMzkyMTQyNTQyLC0xMj
-YyMTI1NzczLDY0NzAyMjY0MiwtMjAyMjMwNjkzOSwtMTEwMzk0
-MTE3OF19
+eyJoaXN0b3J5IjpbLTEwMjgwMTk4OTgsMTM5MjE0MjU0MiwtMT
+I2MjEyNTc3Myw2NDcwMjI2NDIsLTIwMjIzMDY5MzksLTExMDM5
+NDExNzhdfQ==
 -->
