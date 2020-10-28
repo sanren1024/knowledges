@@ -103,11 +103,11 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 代码中，资源名是动态生成的，因此<code>R8</code>会认定所有以<code>img_</code>开始的资源会被引用，因此一些即便不被使用，但是名字以<code>img_</code>开始的资源文件不会被移除。
 
-同样，资源压缩器会分析代码中的字符串常量，以及<code>/res/raw/</code>
+同样，资源压缩器会分析代码中的字符串常量，以及<code>/res/raw/</code>目录下各种资源，类似<code>file:///android_res/drawable</code>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzOTYxNjYxMSwtNDEyNTc4NzYsMTczOD
+eyJoaXN0b3J5IjpbLTgwMjgwNTU5OCwtNDEyNTc4NzYsMTczOD
 IxNTM4MSwtMTQ4MTg5MTAxNywtODUxNDY2MzY0LDcyODYzMzM5
 NSwxMjc3NzQzMDY2LDE2NjYxMDk5MTIsLTg2OTc0MjEyMywxMD
 gzNDY5OTkyLDg4NTQ2NDI1OCwtMTM0NDUzMjc4MywxNDE1MTI0
