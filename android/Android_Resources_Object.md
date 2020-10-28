@@ -1,6 +1,6 @@
 - [Resources不同获取方式](#Resources不同获取方式)
-    * [Resources.getSystem()](#Resources\.getSystem())
-    * [Context.getResources()](#Context\.getResources())
+    * [Resources.getSystem()](#Resources\\.getSystem())
+    * [Context.getResources()](#Context\\.getResources())
 
 
 # Resources不同获取方式
@@ -56,6 +56,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 **一般大家在开发过程中很少会使用<code>Resources.getSystem()</code>方式去获取<code>Resources</code>对象，但这里踩到了坑了，这个细节还是需要注意的。**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMxODQ1NzY2LC0xNTM4MzQ1MzIyLDE0ND
-MwNTM0NDYsLTMxMjU5NjgyMSw5Njg2MTc5NzRdfQ==
+eyJoaXN0b3J5IjpbNzU0MzEzNjA2LDczMTg0NTc2NiwtMTUzOD
+M0NTMyMiwxNDQzMDUzNDQ2LC0zMTI1OTY4MjEsOTY4NjE3OTc0
+XX0=
 -->
