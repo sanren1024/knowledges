@@ -162,15 +162,17 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
     - **safe mode**
         在**safe**模式下，使用运行时代码动态加载的图片资源未被移除。
+        ![unremoved](https://github.com/sanren1024/knowledges/blob/main/android/images/proguard/proguard_image_not_removed_by_dynamic_reference_minify_enabled.png)
       
     - **strict mode**
+      在**strict**模式下，图片资源的会被移除，与布局
 
 同样，资源压缩器会分析代码中的字符串常量，以及<code>/res/raw/</code>目录下各种资源，类似<code>file:///android_res/drawable/ic_plus.png</code>的URL地址。如果压缩器检查到类似这些地址或资源，或者看起来可以组成类似的URL地址的资源，压缩器不会移除这些资源。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEyODEwODU3LDIwMzg5MTU2MCw3NDA5OD
-EyOTQsMTkwMDYzODc2NiwtMTAyODAxOTg5OCwxMzkyMTQyNTQy
-LC0xMjYyMTI1NzczLDY0NzAyMjY0MiwtMjAyMjMwNjkzOSwtMT
-EwMzk0MTE3OF19
+eyJoaXN0b3J5IjpbLTczNTQ2MzkwNCwyMDM4OTE1NjAsNzQwOT
+gxMjk0LDE5MDA2Mzg3NjYsLTEwMjgwMTk4OTgsMTM5MjE0MjU0
+MiwtMTI2MjEyNTc3Myw2NDcwMjI2NDIsLTIwMjIzMDY5MzksLT
+ExMDM5NDExNzhdfQ==
 -->
