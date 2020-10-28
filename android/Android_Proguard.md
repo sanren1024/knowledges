@@ -1,6 +1,7 @@
 
 # Android  Proguard
 
+文章内容有些长，包含了测试内容，但是读完我相信对apk体积压缩会有一个更好的认识。
 
 ## 代码压缩(code shrinking)
 
@@ -174,8 +175,8 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDY2NjUyNiwtMTYwMDY1MTA2Niw2Mz
-g3MjY0MzQsMjAzODkxNTYwLDc0MDk4MTI5NCwxOTAwNjM4NzY2
-LC0xMDI4MDE5ODk4LDEzOTIxNDI1NDIsLTEyNjIxMjU3NzMsNj
-Q3MDIyNjQyLC0yMDIyMzA2OTM5LC0xMTAzOTQxMTc4XX0=
+eyJoaXN0b3J5IjpbLTE2NzM2MTI2NjEsLTE2MDA2NTEwNjYsNj
+M4NzI2NDM0LDIwMzg5MTU2MCw3NDA5ODEyOTQsMTkwMDYzODc2
+NiwtMTAyODAxOTg5OCwxMzkyMTQyNTQyLC0xMjYyMTI1NzczLD
+Y0NzAyMjY0MiwtMjAyMjMwNjkzOSwtMTEwMzk0MTE3OF19
 -->
