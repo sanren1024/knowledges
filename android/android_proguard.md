@@ -105,6 +105,8 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 #### 动态资源名测试
 
+
+
 代码如下：
 
 ```kotlin
@@ -122,10 +124,10 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgwNjg5NzA0LDEzMjYyNzg2MTgsLTk1Nz
-c0MjQxMiwtNDEyNTc4NzYsMTczODIxNTM4MSwtMTQ4MTg5MTAx
-NywtODUxNDY2MzY0LDcyODYzMzM5NSwxMjc3NzQzMDY2LDE2Nj
-YxMDk5MTIsLTg2OTc0MjEyMywxMDgzNDY5OTkyLDg4NTQ2NDI1
-OCwtMTM0NDUzMjc4MywxNDE1MTI0OTA3LDIxMzMzNDc0NzIsLT
-Q5MzMzNDIwMiwyMDcwNTYzMzU0XX0=
+eyJoaXN0b3J5IjpbLTE3NTMxMDU5NzIsNDgwNjg5NzA0LDEzMj
+YyNzg2MTgsLTk1Nzc0MjQxMiwtNDEyNTc4NzYsMTczODIxNTM4
+MSwtMTQ4MTg5MTAxNywtODUxNDY2MzY0LDcyODYzMzM5NSwxMj
+c3NzQzMDY2LDE2NjYxMDk5MTIsLTg2OTc0MjEyMywxMDgzNDY5
+OTkyLDg4NTQ2NDI1OCwtMTM0NDUzMjc4MywxNDE1MTI0OTA3LD
+IxMzMzNDc0NzIsLTQ5MzMzNDIwMiwyMDcwNTYzMzU0XX0=
 -->
