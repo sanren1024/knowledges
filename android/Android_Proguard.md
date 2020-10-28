@@ -171,11 +171,11 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
       在**strict**模式下，图片资源的会被移除，与布局资源文件一样，图片文件依然存在，但内容已经被替换。
       ![removed](https://github.com/sanren1024/knowledges/blob/main/android/images/proguard/proguard_shrink_resources_image_strict_mode.png)
 
-如果要在**strict**资源压缩模式下，保留动态加载的图片不被处理，
+如果要在**strict**资源压缩模式下，保留动态加载的图片不被处理，需要在<code>/res/raw/keep.xml</code>中使用<code>tools:keep</code>来
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2ODU0MzU0MywtMTY3MzYxMjY2MSwtMT
+eyJoaXN0b3J5IjpbLTQwNjQyNDUwNCwtMTY3MzYxMjY2MSwtMT
 YwMDY1MTA2Niw2Mzg3MjY0MzQsMjAzODkxNTYwLDc0MDk4MTI5
 NCwxOTAwNjM4NzY2LC0xMDI4MDE5ODk4LDEzOTIxNDI1NDIsLT
 EyNjIxMjU3NzMsNjQ3MDIyNjQyLC0yMDIyMzA2OTM5LC0xMTAz
