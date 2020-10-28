@@ -181,12 +181,13 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
     tools:keep="@mipmap/airplane_space"/>
 ```
 
+
 ### 移除重复资源
 
-
+资源压缩器只会移除不被code引用的资源，也就意味着可能因为设备配置的不同导致可选资源被移除。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMTQwMzU3MSwxNTkwNjU1MDkzLC0xNj
+eyJoaXN0b3J5IjpbLTQwMzk1MTQ3MSwxNTkwNjU1MDkzLC0xNj
 czNjEyNjYxLC0xNjAwNjUxMDY2LDYzODcyNjQzNCwyMDM4OTE1
 NjAsNzQwOTgxMjk0LDE5MDA2Mzg3NjYsLTEwMjgwMTk4OTgsMT
 M5MjE0MjU0MiwtMTI2MjEyNTc3Myw2NDcwMjI2NDIsLTIwMjIz
