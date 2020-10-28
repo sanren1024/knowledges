@@ -140,7 +140,9 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 > 下面来看下两种模式下不同的资源表现
 
 - **safe mode**
+![save mode](https://github.com/sanren1024/knowledges/blob/main/android/images/proguard/proguard_shrink_resources_save_mode.png)
 
+上图是
 
 
 - **strict mode**
@@ -153,7 +155,7 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjgwMTk4OTgsMTM5MjE0MjU0MiwtMT
-I2MjEyNTc3Myw2NDcwMjI2NDIsLTIwMjIzMDY5MzksLTExMDM5
-NDExNzhdfQ==
+eyJoaXN0b3J5IjpbLTE5NzQ4NTYxODEsLTEwMjgwMTk4OTgsMT
+M5MjE0MjU0MiwtMTI2MjEyNTc3Myw2NDcwMjI2NDIsLTIwMjIz
+MDY5MzksLTExMDM5NDExNzhdfQ==
 -->
