@@ -112,7 +112,8 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 <resources xmlns:tools="http://schemas.android.com/tools"
     tools:shrinkMode="strict" />
 ```
-这样
+这样凡是未被<code>R8</code>认为被引用的资源将被移除。
+
 
 ### 资源压缩测试
 
@@ -132,7 +133,9 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 这里在运行时使用<code>getIdentifier()</code>来获取资源id。打**release**包。
 
-在打**release**包前，还需要搞清楚一个问题，即资源压缩在默认情况下是**safe**模式下，另外一个是**strict**模式。
+在打**release**包前，还需要搞清楚一个问题，即资源压缩在默认情况下是**safe**模式下，另外一个是**strict**模式。这种模式下是资源压缩处理是不同的。
+
+#### 
 
 
 
@@ -143,7 +146,7 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NDI1NDE4MywxMzkyMTQyNTQyLC0xMj
+eyJoaXN0b3J5IjpbMTIyMTQ2MDk5MywxMzkyMTQyNTQyLC0xMj
 YyMTI1NzczLDY0NzAyMjY0MiwtMjAyMjMwNjkzOSwtMTEwMzk0
 MTE3OF19
 -->
