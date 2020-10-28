@@ -1,3 +1,7 @@
+- [Resources不同获取方式](#Resources不同获取方式)
+- 
+
+
 # Resources不同获取方式
 
 最近在测试一段资源获取代码时，发现语法等均没有错误，但无法准确获取到资源ID，结果总是返回0。
@@ -51,5 +55,6 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 **一般大家在开发过程中很少会使用<code>Resources.getSystem()</code>方式去获取<code>Resources</code>对象，但这里踩到了坑了，这个细节还是需要注意的。**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMjU5NjgyMSw5Njg2MTc5NzRdfQ==
+eyJoaXN0b3J5IjpbMTc5MzU0MzgwOSwtMzEyNTk2ODIxLDk2OD
+YxNzk3NF19
 -->
