@@ -121,7 +121,7 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 这里在运行时使用<code>getIdentifier()</code>来获取资源id。打**release**包。
 
-在打**release**包前，还需要搞清楚一个问题，即资源压缩在默认情况下是**
+在打**release**包前，还需要搞清楚一个问题，即资源压缩在默认情况下是**safe**模式下，
 
 
 
@@ -132,7 +132,7 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1Njg1OTAzNCwxMzkyMTQyNTQyLC0xMj
-YyMTI1NzczLDY0NzAyMjY0MiwtMjAyMjMwNjkzOSwtMTEwMzk0
-MTE3OF19
+eyJoaXN0b3J5IjpbLTE2NzQ5MDMxOTAsMTM5MjE0MjU0MiwtMT
+I2MjEyNTc3Myw2NDcwMjI2NDIsLTIwMjIzMDY5MzksLTExMDM5
+NDExNzhdfQ==
 -->
