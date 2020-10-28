@@ -105,6 +105,8 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 #### 动态资源名测试
 
+在project中有资源<code>airplane_space.png</code>的图片资源，在<code>layout</code>目录下保留有三个不被引用的xml文件。
+
 
 
 代码如下：
@@ -124,10 +126,10 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTMxMDU5NzIsNDgwNjg5NzA0LDEzMj
-YyNzg2MTgsLTk1Nzc0MjQxMiwtNDEyNTc4NzYsMTczODIxNTM4
-MSwtMTQ4MTg5MTAxNywtODUxNDY2MzY0LDcyODYzMzM5NSwxMj
-c3NzQzMDY2LDE2NjYxMDk5MTIsLTg2OTc0MjEyMywxMDgzNDY5
-OTkyLDg4NTQ2NDI1OCwtMTM0NDUzMjc4MywxNDE1MTI0OTA3LD
-IxMzMzNDc0NzIsLTQ5MzMzNDIwMiwyMDcwNTYzMzU0XX0=
+eyJoaXN0b3J5IjpbNDI3MjYwMjcxLDQ4MDY4OTcwNCwxMzI2Mj
+c4NjE4LC05NTc3NDI0MTIsLTQxMjU3ODc2LDE3MzgyMTUzODEs
+LTE0ODE4OTEwMTcsLTg1MTQ2NjM2NCw3Mjg2MzMzOTUsMTI3Nz
+c0MzA2NiwxNjY2MTA5OTEyLC04Njk3NDIxMjMsMTA4MzQ2OTk5
+Miw4ODU0NjQyNTgsLTEzNDQ1MzI3ODMsMTQxNTEyNDkwNywyMT
+MzMzQ3NDcyLC00OTMzMzQyMDIsMjA3MDU2MzM1NF19
 -->
