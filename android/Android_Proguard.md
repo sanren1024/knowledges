@@ -162,7 +162,7 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
     - **safe mode**
         在**safe**模式下，使用运行时代码动态加载的图片资源未被移除。
-        ![unremoved](https://github.com/sanren1024/knowledges/blob/main/android/images/proguard/proguard_image_not_removed_by_dynamic_reference_minify_enabled.png)
+        ![unremoved](https://github.com/sanren1024/knowledges/blob/main/android/images/proguard/proguard_shrink_resources_image_safe_mode.png)
       
     - **strict mode**
       在**strict**模式下，图片资源的会被移除，与布局资源文件一样，图片文件依然存在，但内容已经被替换。
@@ -171,8 +171,8 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM4NzI2NDM0LDIwMzg5MTU2MCw3NDA5OD
-EyOTQsMTkwMDYzODc2NiwtMTAyODAxOTg5OCwxMzkyMTQyNTQy
-LC0xMjYyMTI1NzczLDY0NzAyMjY0MiwtMjAyMjMwNjkzOSwtMT
-EwMzk0MTE3OF19
+eyJoaXN0b3J5IjpbMTg5NzYyNTUwMiw2Mzg3MjY0MzQsMjAzOD
+kxNTYwLDc0MDk4MTI5NCwxOTAwNjM4NzY2LC0xMDI4MDE5ODk4
+LDEzOTIxNDI1NDIsLTEyNjIxMjU3NzMsNjQ3MDIyNjQyLC0yMD
+IyMzA2OTM5LC0xMTAzOTQxMTc4XX0=
 -->
