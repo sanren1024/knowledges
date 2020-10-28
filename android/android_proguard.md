@@ -107,7 +107,7 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 在project中有资源<code>airplane_space.png</code>的图片资源，在<code>layout</code>目录下保留有三个不被引用的xml文件。
 
-
+![project resources strcuture](https://github.com/sanren1024/knowledges/blob/main/android/images/proguard/Screenshot%20from%202020-10-28%2011-46-44.png)
 
 代码如下：
 
@@ -126,10 +126,11 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI3MjYwMjcxLDQ4MDY4OTcwNCwxMzI2Mj
-c4NjE4LC05NTc3NDI0MTIsLTQxMjU3ODc2LDE3MzgyMTUzODEs
-LTE0ODE4OTEwMTcsLTg1MTQ2NjM2NCw3Mjg2MzMzOTUsMTI3Nz
-c0MzA2NiwxNjY2MTA5OTEyLC04Njk3NDIxMjMsMTA4MzQ2OTk5
-Miw4ODU0NjQyNTgsLTEzNDQ1MzI3ODMsMTQxNTEyNDkwNywyMT
-MzMzQ3NDcyLC00OTMzMzQyMDIsMjA3MDU2MzM1NF19
+eyJoaXN0b3J5IjpbMjE1Njg2Mzc4LDQyNzI2MDI3MSw0ODA2OD
+k3MDQsMTMyNjI3ODYxOCwtOTU3NzQyNDEyLC00MTI1Nzg3Niwx
+NzM4MjE1MzgxLC0xNDgxODkxMDE3LC04NTE0NjYzNjQsNzI4Nj
+MzMzk1LDEyNzc3NDMwNjYsMTY2NjEwOTkxMiwtODY5NzQyMTIz
+LDEwODM0Njk5OTIsODg1NDY0MjU4LC0xMzQ0NTMyNzgzLDE0MT
+UxMjQ5MDcsMjEzMzM0NzQ3MiwtNDkzMzM0MjAyLDIwNzA1NjMz
+NTRdfQ==
 -->
