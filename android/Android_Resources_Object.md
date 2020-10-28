@@ -44,9 +44,10 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 这样的获取方式，并不能在当前运行的<code>Activity</code>等组件运行时使用其**dimen**，也不会根据方向而改变。运行时不会被运行时资源影响。
 
+
 ## Context.getResources()
 
-
+返回与Application关联的<code>Resources</code>对象，即通过这个对象，可以访问到app资源，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTg3Mjk4MzEsOTY4NjE3OTc0XX0=
+eyJoaXN0b3J5IjpbLTY1MDI2NzcyNyw5Njg2MTc5NzRdfQ==
 -->
