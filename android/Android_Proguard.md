@@ -103,7 +103,7 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 代码中，资源名是动态生成的，因此<code>R8</code>会认定所有以<code>img_</code>开始的资源会被引用，因此一些即便不被使用，但是名字以<code>img_</code>开始的资源文件不会被移除。
 
-#### 动态资源名测试
+### 资源压缩测试
 
 在project中有资源<code>airplane_space.png</code>的图片资源，在<code>layout</code>目录下保留有三个不被引用的xml文件。
 
@@ -132,6 +132,6 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ3MDIyNjQyLC0yMDIyMzA2OTM5LC0xMT
-AzOTQxMTc4XX0=
+eyJoaXN0b3J5IjpbLTEyNjIxMjU3NzMsNjQ3MDIyNjQyLC0yMD
+IyMzA2OTM5LC0xMTAzOTQxMTc4XX0=
 -->
