@@ -1,6 +1,7 @@
 
 # Android  Proguard
 
+文章内容有些长，包含了测试内容，但是读完我相信对apk体积压缩会有一个更好的认识。
 
 ## 代码压缩(code shrinking)
 
@@ -103,6 +104,8 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 代码中，资源名是动态生成的，因此<code>R8</code>会认定所有以<code>img_</code>开始的资源会被引用，因此一些即便不被使用，但是名字以<code>img_</code>开始的资源文件不会被移除。
 
+同样，资源压缩器会分析代码中的字符串常量，以及<code>/res/raw/</code>目录下各种资源，类似<code>file:///android_res/drawable/ic_plus.png</code>的URL地址。如果压缩器检查到类似这些地址或资源，或者看起来可以组成类似的URL地址的资源，压缩器不会移除这些资源。
+
 以上这些均是在**默认的safe模式**下的资源压缩。
 
 另外一种即是**strict**模式，需要在<code>raw</code>目录下的<code>keep.xml</code>内配置<code>strict</code>值。
@@ -168,12 +171,41 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
       在**strict**模式下，图片资源的会被移除，与布局资源文件一样，图片文件依然存在，但内容已经被替换。
       ![removed](https://github.com/sanren1024/knowledges/blob/main/android/images/proguard/proguard_shrink_resources_image_strict_mode.png)
 
-同样，资源压缩器会分析代码中的字符串常量，以及<code>/res/raw/</code>目录下各种资源，类似<code>file:///android_res/drawable/ic_plus.png</code>的URL地址。如果压缩器检查到类似这些地址或资源，或者看起来可以组成类似的URL地址的资源，压缩器不会移除这些资源。
+如果要在**strict**资源压缩模式下，保留动态加载的图片不被处理，需要在<code>/res/raw/keep.xml</code>中使用<code>tools:keep</code>来设置需要保留的资源。
+
+这次的测试的保留图片资源，设置带代码如下。
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:shrinkMode="strict"
+    tools:keep="@mipmap/airplane_space"/>
+```
+
+
+### 移除重复资源
+
+资源压缩器只会移除不被code引用的资源，也就意味着可能因为设备配置的不同导致可选资源被移除。例如，多语言apk中会包含有多种语言的string字符串资源，但在很多情况下只需要其中一种或若干种语言翻译，此时其他的语言种类可以移除。这种情况下，可以使用gradle的<code>resConfig</code>类配置需要保留的资源包，其他未配置的语言包将被移除。
+
+```groovy
+android {
+    defaultConfig {
+        ...
+        resConfigs "en", "fr"
+    }
+}
+```
+
+类似的可以配置不同的分辨率设备，以及不同的ABI配置的资源。
+
+
+### 合并(merge)重复资源
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDA2NTEwNjYsNjM4NzI2NDM0LDIwMz
-g5MTU2MCw3NDA5ODEyOTQsMTkwMDYzODc2NiwtMTAyODAxOTg5
-OCwxMzkyMTQyNTQyLC0xMjYyMTI1NzczLDY0NzAyMjY0MiwtMj
-AyMjMwNjkzOSwtMTEwMzk0MTE3OF19
+eyJoaXN0b3J5IjpbLTczNTkxNjAwNSwxNTkwNjU1MDkzLC0xNj
+czNjEyNjYxLC0xNjAwNjUxMDY2LDYzODcyNjQzNCwyMDM4OTE1
+NjAsNzQwOTgxMjk0LDE5MDA2Mzg3NjYsLTEwMjgwMTk4OTgsMT
+M5MjE0MjU0MiwtMTI2MjEyNTc3Myw2NDcwMjI2NDIsLTIwMjIz
+MDY5MzksLTExMDM5NDExNzhdfQ==
 -->
