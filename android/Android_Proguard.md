@@ -103,6 +103,18 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 代码中，资源名是动态生成的，因此<code>R8</code>会认定所有以<code>img_</code>开始的资源会被引用，因此一些即便不被使用，但是名字以<code>img_</code>开始的资源文件不会被移除。
 
+以上这些均是在**默认的safe模式**下的资源压缩。
+
+另外一种即是**strict**模式，需要在<code>raw</code>目录下的<code>keep.xml</code>内配置<code>strict</code>值。
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:shrinkMode="strict" />
+```
+这样凡是未被<code>R8</code>认为被引用的资源将被移除。
+
+
 ### 资源压缩测试
 
 在project中有资源<code>airplane_space.png</code>的图片资源，在<code>layout</code>目录下保留有不被引用的fragment xml文件。
@@ -121,8 +133,17 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 这里在运行时使用<code>getIdentifier()</code>来获取资源id。打**release**包。
 
-在打**release**包前，还需要搞清楚一个问题，即资源压缩在默认情况下是**safe**模式下，
+在打**release**包前，还需要搞清楚一个问题，即资源压缩在默认情况下是**safe**模式下，另外一个是**strict**模式。这种模式下是资源压缩处理是不同的。
 
+----
+
+> 下面来看下两种模式下不同的资源表现
+
+- **safe mode**
+
+
+
+- **strict mode**
 
 
 
@@ -132,7 +153,7 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzQ5MDMxOTAsMTM5MjE0MjU0MiwtMT
+eyJoaXN0b3J5IjpbLTEwMjgwMTk4OTgsMTM5MjE0MjU0MiwtMT
 I2MjEyNTc3Myw2NDcwMjI2NDIsLTIwMjIzMDY5MzksLTExMDM5
 NDExNzhdfQ==
 -->
