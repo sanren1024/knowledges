@@ -184,12 +184,21 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 ### 移除重复资源
 
-资源压缩器只会移除不被code引用的资源，也就意味着可能因为设备配置的不同导致可选资源被移除。例如，多语言apk中会包含有多种语言的string字符串资源，但在很多情况下只需要其中一种或若干种语言翻译，此时其他的语言种类可以移除。这种情况下，可以使用gradle的<code>resConfig</code>类配置需要保留的资源
+资源压缩器只会移除不被code引用的资源，也就意味着可能因为设备配置的不同导致可选资源被移除。例如，多语言apk中会包含有多种语言的string字符串资源，但在很多情况下只需要其中一种或若干种语言翻译，此时其他的语言种类可以移除。这种情况下，可以使用gradle的<code>resConfig</code>类配置需要保留的资源包，其他未配置的语言包将被移除。
+
+```groovy
+android {
+    defaultConfig {
+        ...
+        resConfigs "en", "fr"
+    }
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMTg4NDExLDE1OTA2NTUwOTMsLTE2Nz
-M2MTI2NjEsLTE2MDA2NTEwNjYsNjM4NzI2NDM0LDIwMzg5MTU2
-MCw3NDA5ODEyOTQsMTkwMDYzODc2NiwtMTAyODAxOTg5OCwxMz
-kyMTQyNTQyLC0xMjYyMTI1NzczLDY0NzAyMjY0MiwtMjAyMjMw
-NjkzOSwtMTEwMzk0MTE3OF19
+eyJoaXN0b3J5IjpbLTI5NTI3OTU5NSwxNTkwNjU1MDkzLC0xNj
+czNjEyNjYxLC0xNjAwNjUxMDY2LDYzODcyNjQzNCwyMDM4OTE1
+NjAsNzQwOTgxMjk0LDE5MDA2Mzg3NjYsLTEwMjgwMTk4OTgsMT
+M5MjE0MjU0MiwtMTI2MjEyNTc3Myw2NDcwMjI2NDIsLTIwMjIz
+MDY5MzksLTExMDM5NDExNzhdfQ==
 -->
