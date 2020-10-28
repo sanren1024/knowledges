@@ -160,13 +160,16 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
     
 2. 图片资源
 
-    - 
+    - **safe mode**
+        在**safe**模式下，使用运行时代码动态加载的图片资源未被移除。
+      
+    - **strict mode**
 
 同样，资源压缩器会分析代码中的字符串常量，以及<code>/res/raw/</code>目录下各种资源，类似<code>file:///android_res/drawable/ic_plus.png</code>的URL地址。如果压缩器检查到类似这些地址或资源，或者看起来可以组成类似的URL地址的资源，压缩器不会移除这些资源。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEyOTEwODUyLDIwMzg5MTU2MCw3NDA5OD
+eyJoaXN0b3J5IjpbNTEyODEwODU3LDIwMzg5MTU2MCw3NDA5OD
 EyOTQsMTkwMDYzODc2NiwtMTAyODAxOTg5OCwxMzkyMTQyNTQy
 LC0xMjYyMTI1NzczLDY0NzAyMjY0MiwtMjAyMjMwNjkzOSwtMT
 EwMzk0MTE3OF19
