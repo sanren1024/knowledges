@@ -142,7 +142,7 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 1. layout文件
 
   - **safe mode**
-        ![save mode](https://github.com/sanren1024/knowledges/blob/main/android/images/proguard/proguard_shrink_resources_safe_mode.png)
+          ![save mode](https://github.com/sanren1024/knowledges/blob/main/android/images/proguard/proguard_shrink_resources_safe_mode.png)
     
     上图是在**safe**模式的资源压缩下，在打包过程中列出的未使用布局文件资源(unused resource)。这里可以看出，被处理的是系统文件，App下的布局文件未被处理。
     也可以通过反编译，查看到，未被使用的布局文件内容未被处理。
@@ -164,8 +164,8 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNDAyMzkyLDc0MDk4MTI5NCwxOTAwNj
-M4NzY2LC0xMDI4MDE5ODk4LDEzOTIxNDI1NDIsLTEyNjIxMjU3
-NzMsNjQ3MDIyNjQyLC0yMDIyMzA2OTM5LC0xMTAzOTQxMTc4XX
-0=
+eyJoaXN0b3J5IjpbLTQyNTEwNDk4NCw3NDA5ODEyOTQsMTkwMD
+YzODc2NiwtMTAyODAxOTg5OCwxMzkyMTQyNTQyLC0xMjYyMTI1
+NzczLDY0NzAyMjY0MiwtMjAyMjMwNjkzOSwtMTEwMzk0MTE3OF
+19
 -->
