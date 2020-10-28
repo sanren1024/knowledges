@@ -105,7 +105,7 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 ### 资源压缩测试
 
-在project中有资源<code>airplane_space.png</code>的图片资源，在<code>layout</code>目录下保留有三个不被引用的xml文件。
+在project中有资源<code>airplane_space.png</code>的图片资源，在<code>layout</code>目录下保留有不被引用的fragment xml文件。
 
 ![project resources strcuture](https://github.com/sanren1024/knowledges/blob/main/android/images/proguard/Screenshot%20from%202020-10-28%2011-46-44.png)
 
@@ -132,6 +132,6 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjIxMjU3NzMsNjQ3MDIyNjQyLC0yMD
-IyMzA2OTM5LC0xMTAzOTQxMTc4XX0=
+eyJoaXN0b3J5IjpbMTM5MjE0MjU0MiwtMTI2MjEyNTc3Myw2ND
+cwMjI2NDIsLTIwMjIzMDY5MzksLTExMDM5NDExNzhdfQ==
 -->
