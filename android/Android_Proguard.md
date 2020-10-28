@@ -103,6 +103,8 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 代码中，资源名是动态生成的，因此<code>R8</code>会认定所有以<code>img_</code>开始的资源会被引用，因此一些即便不被使用，但是名字以<code>img_</code>开始的资源文件不会被移除。
 
+同样，资源压缩器会分析代码中的字符串常量，以及<code>/res/raw/</code>目录下各种资源，类似<code>file:///android_res/drawable/ic_plus.png</code>的URL地址。如果压缩器检查到类似这些地址或资源，或者看起来可以组成类似的URL地址的资源，压缩器不会移除这些资源。
+
 以上这些均是在**默认的safe模式**下的资源压缩。
 
 另外一种即是**strict**模式，需要在<code>raw</code>目录下的<code>keep.xml</code>内配置<code>strict</code>值。
@@ -168,12 +170,12 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
       在**strict**模式下，图片资源的会被移除，与布局资源文件一样，图片文件依然存在，但内容已经被替换。
       ![removed](https://github.com/sanren1024/knowledges/blob/main/android/images/proguard/proguard_shrink_resources_image_strict_mode.png)
 
-同样，资源压缩器会分析代码中的字符串常量，以及<code>/res/raw/</code>目录下各种资源，类似<code>file:///android_res/drawable/ic_plus.png</code>的URL地址。如果压缩器检查到类似这些地址或资源，或者看起来可以组成类似的URL地址的资源，压缩器不会移除这些资源。
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDA2NTEwNjYsNjM4NzI2NDM0LDIwMz
-g5MTU2MCw3NDA5ODEyOTQsMTkwMDYzODc2NiwtMTAyODAxOTg5
-OCwxMzkyMTQyNTQyLC0xMjYyMTI1NzczLDY0NzAyMjY0MiwtMj
-AyMjMwNjkzOSwtMTEwMzk0MTE3OF19
+eyJoaXN0b3J5IjpbLTE1NDY2NjUyNiwtMTYwMDY1MTA2Niw2Mz
+g3MjY0MzQsMjAzODkxNTYwLDc0MDk4MTI5NCwxOTAwNjM4NzY2
+LC0xMDI4MDE5ODk4LDEzOTIxNDI1NDIsLTEyNjIxMjU3NzMsNj
+Q3MDIyNjQyLC0yMDIyMzA2OTM5LC0xMTAzOTQxMTc4XX0=
 -->
