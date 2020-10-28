@@ -149,7 +149,8 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
   - **strict mode**
         ![strict mode](https://github.com/sanren1024/knowledges/blob/main/android/images/proguard/proguard_shrink_resource_strict_mode.png)
-   上图中显示的是**strict**模式的资源压缩下，针对App内未被引用的fragemnt  xml文件进行的处理。可以看到括弧内提示，原有文件内容被104字节内容替换掉了(***replaced with small dummy file of size 104 bytes***)。
+         
+    上图中显示的是**strict**模式的资源压缩下，针对App内未被引用的fragemnt  xml文件进行的处理。可以看到括弧内提示，原有文件内容被104字节内容替换掉了(***replaced with small dummy file of size 104 bytes***)。
   也就是文件没有被移除，但是文件内容被替换成了固定大小(104字节)内容。在反编译后，打开被处理过的xml文件，固定内容如下：
   
     ```xml
@@ -163,8 +164,8 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMDA0MjU4Miw3NDA5ODEyOTQsMTkwMD
-YzODc2NiwtMTAyODAxOTg5OCwxMzkyMTQyNTQyLC0xMjYyMTI1
-NzczLDY0NzAyMjY0MiwtMjAyMjMwNjkzOSwtMTEwMzk0MTE3OF
-19
+eyJoaXN0b3J5IjpbLTQxNDAyMzkyLDc0MDk4MTI5NCwxOTAwNj
+M4NzY2LC0xMDI4MDE5ODk4LDEzOTIxNDI1NDIsLTEyNjIxMjU3
+NzMsNjQ3MDIyNjQyLC0yMDIyMzA2OTM5LC0xMTAzOTQxMTc4XX
+0=
 -->
