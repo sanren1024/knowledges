@@ -42,9 +42,9 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 ## Resources.getSystem()
 
-这个方式获取的<code>Resources</code>对象，其关联到的只能是系统资源，
+这个方式获取的<code>Resources</code>对象，其关联到的只能是系统资源，即只能访问系统资源，不能访问app资源(application resources)。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg1OTk5MDY3XX0=
+eyJoaXN0b3J5IjpbOTczMDEzODI4XX0=
 -->
