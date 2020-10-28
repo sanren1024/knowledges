@@ -166,13 +166,14 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
       
     - **strict mode**
       在**strict**模式下，图片资源的会被移除，与布局资源文件一样，图片文件依然存在，但内容已经被替换。
+      ![removed](https://github.com/sanren1024/knowledges/blob/main/android/images/proguard/proguard_shrink_resources_image_strict_mode.png)
 
 同样，资源压缩器会分析代码中的字符串常量，以及<code>/res/raw/</code>目录下各种资源，类似<code>file:///android_res/drawable/ic_plus.png</code>的URL地址。如果压缩器检查到类似这些地址或资源，或者看起来可以组成类似的URL地址的资源，压缩器不会移除这些资源。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NzYyNTUwMiw2Mzg3MjY0MzQsMjAzOD
-kxNTYwLDc0MDk4MTI5NCwxOTAwNjM4NzY2LC0xMDI4MDE5ODk4
-LDEzOTIxNDI1NDIsLTEyNjIxMjU3NzMsNjQ3MDIyNjQyLC0yMD
-IyMzA2OTM5LC0xMTAzOTQxMTc4XX0=
+eyJoaXN0b3J5IjpbLTE2MDA2NTEwNjYsNjM4NzI2NDM0LDIwMz
+g5MTU2MCw3NDA5ODEyOTQsMTkwMDYzODc2NiwtMTAyODAxOTg5
+OCwxMzkyMTQyNTQyLC0xMjYyMTI1NzczLDY0NzAyMjY0MiwtMj
+AyMjMwNjkzOSwtMTEwMzk0MTE3OF19
 -->
