@@ -181,11 +181,14 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
     tools:keep="@mipmap/airplane_space"/>
 ```
 
+### 移除重复资源
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MDY1NTA5MywtMTY3MzYxMjY2MSwtMT
-YwMDY1MTA2Niw2Mzg3MjY0MzQsMjAzODkxNTYwLDc0MDk4MTI5
-NCwxOTAwNjM4NzY2LC0xMDI4MDE5ODk4LDEzOTIxNDI1NDIsLT
-EyNjIxMjU3NzMsNjQ3MDIyNjQyLC0yMDIyMzA2OTM5LC0xMTAz
-OTQxMTc4XX0=
+eyJoaXN0b3J5IjpbLTQxMTQwMzU3MSwxNTkwNjU1MDkzLC0xNj
+czNjEyNjYxLC0xNjAwNjUxMDY2LDYzODcyNjQzNCwyMDM4OTE1
+NjAsNzQwOTgxMjk0LDE5MDA2Mzg3NjYsLTEwMjgwMTk4OTgsMT
+M5MjE0MjU0MiwtMTI2MjEyNTc3Myw2NDcwMjI2NDIsLTIwMjIz
+MDY5MzksLTExMDM5NDExNzhdfQ==
 -->
