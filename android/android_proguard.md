@@ -105,16 +105,19 @@ val res = resources.getIdentifier(name,  "drawable", packageName)
 
 #### 动态资源名测试
 
+代码如下：
+
+
 
 
 同样，资源压缩器会分析代码中的字符串常量，以及<code>/res/raw/</code>目录下各种资源，类似<code>file:///android_res/drawable/ic_plus.png</code>的URL地址。如果压缩器检查到类似这些地址或资源，或者看起来可以组成类似的URL地址的资源，压缩器不会移除这些资源。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNjI3ODYxOCwtOTU3NzQyNDEyLC00MT
-I1Nzg3NiwxNzM4MjE1MzgxLC0xNDgxODkxMDE3LC04NTE0NjYz
-NjQsNzI4NjMzMzk1LDEyNzc3NDMwNjYsMTY2NjEwOTkxMiwtOD
-Y5NzQyMTIzLDEwODM0Njk5OTIsODg1NDY0MjU4LC0xMzQ0NTMy
-NzgzLDE0MTUxMjQ5MDcsMjEzMzM0NzQ3MiwtNDkzMzM0MjAyLD
-IwNzA1NjMzNTRdfQ==
+eyJoaXN0b3J5IjpbLTY5ODg2OTA2MywxMzI2Mjc4NjE4LC05NT
+c3NDI0MTIsLTQxMjU3ODc2LDE3MzgyMTUzODEsLTE0ODE4OTEw
+MTcsLTg1MTQ2NjM2NCw3Mjg2MzMzOTUsMTI3Nzc0MzA2NiwxNj
+Y2MTA5OTEyLC04Njk3NDIxMjMsMTA4MzQ2OTk5Miw4ODU0NjQy
+NTgsLTEzNDQ1MzI3ODMsMTQxNTEyNDkwNywyMTMzMzQ3NDcyLC
+00OTMzMzQyMDIsMjA3MDU2MzM1NF19
 -->
