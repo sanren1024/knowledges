@@ -215,12 +215,12 @@ Gradle按照一下优先级顺序合并资源顺序： <code>Dependencies -> Mai
 
 举个栗子，在<code>main</code>资源和<code>build flavor</code>中都有一个相同的资源，Gradle在构建时会选择<code>build flavor</code>中的资源。
 
-如果在同意源码集中出现同名资源，Gradle不会合并，
+如果在同意源码集中出现同名资源，Gradle不会合并，且会抛出错误。例如在<code>build.gradle</code>中华设置了<code>sourceSet</code>属性，在<code>src/main/res/</code>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NDA0MDk4Niw1Mzk4NzMyMTksMjEwOD
-A4MjE0NCwtMTA4NDUzNzAxNSwtNzM1OTE2MDA1LDE1OTA2NTUw
-OTMsLTE2NzM2MTI2NjEsLTE2MDA2NTEwNjYsNjM4NzI2NDM0LD
-IwMzg5MTU2MCw3NDA5ODEyOTQsMTkwMDYzODc2NiwtMTAyODAx
-OTg5OCwxMzkyMTQyNTQyLC0xMjYyMTI1NzczLDY0NzAyMjY0Mi
-wtMjAyMjMwNjkzOSwtMTEwMzk0MTE3OF19
+eyJoaXN0b3J5IjpbNjUyODM4OTQzLDUzOTg3MzIxOSwyMTA4MD
+gyMTQ0LC0xMDg0NTM3MDE1LC03MzU5MTYwMDUsMTU5MDY1NTA5
+MywtMTY3MzYxMjY2MSwtMTYwMDY1MTA2Niw2Mzg3MjY0MzQsMj
+AzODkxNTYwLDc0MDk4MTI5NCwxOTAwNjM4NzY2LC0xMDI4MDE5
+ODk4LDEzOTIxNDI1NDIsLTEyNjIxMjU3NzMsNjQ3MDIyNjQyLC
+0yMDIyMzA2OTM5LC0xMTAzOTQxMTc4XX0=
 -->
