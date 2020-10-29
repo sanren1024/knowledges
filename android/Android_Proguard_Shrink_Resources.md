@@ -213,14 +213,14 @@ Gradle在以下位置中搜索资源：
 
 Gradle按照一下优先级顺序合并资源顺序： <code>Dependencies -> Main -> Build flavor -> Build type</code>
 
-举个栗子，在<code>main</code>资源和<code>build flavor</code>中都有一个相同的资源，
+举个栗子，在<code>main</code>资源和<code>build flavor</code>中都有一个相同的资源，Gradle在构建时会选择<code>build flavor</code>中的资源。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDMyMTY4MjUsNTM5ODczMjE5LDIxMD
-gwODIxNDQsLTEwODQ1MzcwMTUsLTczNTkxNjAwNSwxNTkwNjU1
-MDkzLC0xNjczNjEyNjYxLC0xNjAwNjUxMDY2LDYzODcyNjQzNC
-wyMDM4OTE1NjAsNzQwOTgxMjk0LDE5MDA2Mzg3NjYsLTEwMjgw
-MTk4OTgsMTM5MjE0MjU0MiwtMTI2MjEyNTc3Myw2NDcwMjI2ND
-IsLTIwMjIzMDY5MzksLTExMDM5NDExNzhdfQ==
+eyJoaXN0b3J5IjpbMTQ3MTgxMTQ2MCw1Mzk4NzMyMTksMjEwOD
+A4MjE0NCwtMTA4NDUzNzAxNSwtNzM1OTE2MDA1LDE1OTA2NTUw
+OTMsLTE2NzM2MTI2NjEsLTE2MDA2NTEwNjYsNjM4NzI2NDM0LD
+IwMzg5MTU2MCw3NDA5ODEyOTQsMTkwMDYzODc2NiwtMTAyODAx
+OTg5OCwxMzkyMTQyNTQyLC0xMjYyMTI1NzczLDY0NzAyMjY0Mi
+wtMjAyMjMwNjkzOSwtMTEwMzk0MTE3OF19
 -->
