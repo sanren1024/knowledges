@@ -204,10 +204,13 @@ Gradle在一般情况下会合并在不同资源目录下的同名资源文件�
 
 当两个或更多资源共有相同的名字，类型，及限定名情况下，会发生资源合并。Gradle会在多个重复资源之间选择最合适的资源，传递给AAPT进行编译并发布。
 
-最终资源的确定基于一下
+最终资源的确定基于一下的优先级：
+
+- 在<code>src/main/res/</code>目录下的主要资源；
+- 变量覆盖，基于构建类型与渠道
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxODMyMjkwMSw1Mzk4NzMyMTksMjEwOD
+eyJoaXN0b3J5IjpbLTUzMzkxMTcyMCw1Mzk4NzMyMTksMjEwOD
 A4MjE0NCwtMTA4NDUzNzAxNSwtNzM1OTE2MDA1LDE1OTA2NTUw
 OTMsLTE2NzM2MTI2NjEsLTE2MDA2NTEwNjYsNjM4NzI2NDM0LD
 IwMzg5MTU2MCw3NDA5ODEyOTQsMTkwMDYzODc2NiwtMTAyODAx
