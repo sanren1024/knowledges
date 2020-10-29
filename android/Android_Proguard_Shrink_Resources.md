@@ -213,9 +213,11 @@ Gradle在以下位置中搜索资源：
 
 Gradle按照一下优先级顺序合并资源顺序： <code>Dependencies -> Main -> Build flavor -> Build type</code>
 
+举个栗子，在<code>main</code>资源和<code>build flavor</code>中都有一个相同的资源，
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzQ3NzE5MTQsNTM5ODczMjE5LDIxMD
+eyJoaXN0b3J5IjpbLTIxNDMyMTY4MjUsNTM5ODczMjE5LDIxMD
 gwODIxNDQsLTEwODQ1MzcwMTUsLTczNTkxNjAwNSwxNTkwNjU1
 MDkzLC0xNjczNjEyNjYxLC0xNjAwNjUxMDY2LDYzODcyNjQzNC
 wyMDM4OTE1NjAsNzQwOTgxMjk0LDE5MDA2Mzg3NjYsLTEwMjgw
