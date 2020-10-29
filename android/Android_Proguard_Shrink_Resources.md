@@ -200,12 +200,12 @@ android {
 
 ### 合并(merge)重复资源
 
-Gradle在一般情况下会合并在不同资源目录下的同名资源文件，例如在不同<code>drawable</code>目录下的同名，同类型，同
+Gradle在一般情况下会合并在不同资源目录下的同名资源文件，例如在不同<code>drawable</code>目录下的同名，同类型，同限定名的资源。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2Mzk3NjMzOCwtNzM1OTE2MDA1LDE1OT
-A2NTUwOTMsLTE2NzM2MTI2NjEsLTE2MDA2NTEwNjYsNjM4NzI2
-NDM0LDIwMzg5MTU2MCw3NDA5ODEyOTQsMTkwMDYzODc2NiwtMT
-AyODAxOTg5OCwxMzkyMTQyNTQyLC0xMjYyMTI1NzczLDY0NzAy
-MjY0MiwtMjAyMjMwNjkzOSwtMTEwMzk0MTE3OF19
+eyJoaXN0b3J5IjpbLTEwODQ1MzcwMTUsLTczNTkxNjAwNSwxNT
+kwNjU1MDkzLC0xNjczNjEyNjYxLC0xNjAwNjUxMDY2LDYzODcy
+NjQzNCwyMDM4OTE1NjAsNzQwOTgxMjk0LDE5MDA2Mzg3NjYsLT
+EwMjgwMTk4OTgsMTM5MjE0MjU0MiwtMTI2MjEyNTc3Myw2NDcw
+MjI2NDIsLTIwMjIzMDY5MzksLTExMDM5NDExNzhdfQ==
 -->
