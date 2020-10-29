@@ -200,13 +200,13 @@ android {
 
 ### 合并(merge)重复资源
 
-Gradle在一般情况下会合并在不同资源目录下的同名资源文件，例如在不同<code>drawable</code>目录下的资源。这个合并过程不是通过<code>shrinkResources</code>配置项控制的，也不能停止，因为代码运行时
+Gradle在一般情况下会合并在不同资源目录下的同名资源文件，例如在不同<code>drawable</code>目录下的资源。这个合并过程不是通过<code>shrinkResources</code>配置项控制的，也不能停止，因为代码运行时在多个资源中寻找匹配的资源可以避免错误的发生。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NzQxODk5MCwtMTA4NDUzNzAxNSwtNz
-M1OTE2MDA1LDE1OTA2NTUwOTMsLTE2NzM2MTI2NjEsLTE2MDA2
-NTEwNjYsNjM4NzI2NDM0LDIwMzg5MTU2MCw3NDA5ODEyOTQsMT
-kwMDYzODc2NiwtMTAyODAxOTg5OCwxMzkyMTQyNTQyLC0xMjYy
-MTI1NzczLDY0NzAyMjY0MiwtMjAyMjMwNjkzOSwtMTEwMzk0MT
-E3OF19
+eyJoaXN0b3J5IjpbLTEzNzUzNjI4MTIsLTEwODQ1MzcwMTUsLT
+czNTkxNjAwNSwxNTkwNjU1MDkzLC0xNjczNjEyNjYxLC0xNjAw
+NjUxMDY2LDYzODcyNjQzNCwyMDM4OTE1NjAsNzQwOTgxMjk0LD
+E5MDA2Mzg3NjYsLTEwMjgwMTk4OTgsMTM5MjE0MjU0MiwtMTI2
+MjEyNTc3Myw2NDcwMjI2NDIsLTIwMjIzMDY5MzksLTExMDM5ND
+ExNzhdfQ==
 -->
