@@ -202,10 +202,10 @@ android {
 
 Gradle在一般情况下会合并在不同资源目录下的同名资源文件，例如在不同<code>drawable</code>目录下的资源。这个合并过程不是通过<code>shrinkResources</code>配置项控制的，也不能停止，因为代码运行时在多个资源中寻找匹配的资源可以避免错误的发生。
 
-当两个或更多资源
+当两个或更多资源共有相同的名字，类型，及限定名情况下，会发生资源合并。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE0NDk1MDg5LDIxMDgwODIxNDQsLTEwOD
+eyJoaXN0b3J5IjpbNTM5ODczMjE5LDIxMDgwODIxNDQsLTEwOD
 Q1MzcwMTUsLTczNTkxNjAwNSwxNTkwNjU1MDkzLC0xNjczNjEy
 NjYxLC0xNjAwNjUxMDY2LDYzODcyNjQzNCwyMDM4OTE1NjAsNz
 QwOTgxMjk0LDE5MDA2Mzg3NjYsLTEwMjgwMTk4OTgsMTM5MjE0
